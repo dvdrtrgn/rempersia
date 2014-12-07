@@ -1,0 +1,235 @@
+/* <!-- -- -- -- -- -- begin DRT css -- -- -- -- -- -- --> */
+
+/***** FONT STUFF *****/
+@import url(http://fonts.googleapis.com/earlyaccess/lateef.css);
+
+/***** CORE STUFF *****/
+html {
+    direction: ltr;
+}
+.blacken, .blacken h1 a, .blacken h2, .blacken h3 {
+    color: white !important;
+    background: black !important;
+}
+.comment-wrapper {
+    border-top: 1px dashed #822;
+}
+#content .notice-box {
+    line-height: 1em;
+}
+#content .notice-box h3 {
+    background: none;
+    padding: 0;
+}
+.discussion-comment-thread  .comment-wrapper:first-child {
+    font-size: 150%;
+    line-height: 125%;
+}
+div.header p {
+    margin-left: 11px;
+}
+.comment-wrapper.authored-by-niccu {
+    color: #411;
+    font-style: italic;
+}
+.toes {
+    text-align: center;
+    width: 33%;
+}
+/* **** **** **** **** */
+/* **** DRT STUFF **** */
+/* **** **** **** **** */
+.drt p {
+    line-height: 24px !important;
+    margin: 6px;
+    /* color:green !important; */
+}
+.drt > div {
+    line-height: 21px;
+}
+.drt > div.rtl {
+    width: 48%;
+}
+.drt > div.ltr {
+    width: 46%;
+}
+.drt table {
+    padding: 1px 9px;
+}
+.drt td {
+    border-top: 1px dashed #ddd;
+}
+.drt hr {
+    clear: both;
+}
+.drt p {
+    padding: 1px 9px 12px;
+    border-bottom: 1px dashed #822;
+    margin: 12px 0;
+}
+.drt p:last-child {
+    border-bottom: 0;
+}
+/* **** **** **** **** */
+/* **** LTR STUFF **** */
+/* **** **** **** **** */
+.ltr {
+    direction: ltr;
+    display: block;
+    float: right;
+    text-align: left;
+    font-size: 12.5px;
+}
+.ltr h2 {
+    font-style: italic;
+    font-size: 24px;
+}
+.ltr p {
+    padding-top: 3px;
+}
+/* **** **** **** **** */
+/* **** RTL STUFF **** */
+/* **** **** **** **** */
+.rtl {
+    direction: rtl;
+    font-family: Tahoma, Arial, Times;
+    display: block;
+    float: left;
+    text-align: right;
+    font-size: 15px;
+    clear: both;
+}
+.rtl h2 {
+    font-weight: normal;
+    font-size: 26px;
+}
+.rtl ul {
+    padding: 0 24px 0 0;
+    font-size: 80%;
+}
+/* **** **** **** **** */
+/* **** ETC STUFF **** */
+/* **** **** **** **** */
+.img {
+    border: 21px solid #222;
+    line-height: 0px;
+}
+.left,.right {
+    z-index: -1;
+    position: absolute;
+}
+.left {
+    left: 0px;
+}
+.right {
+    right: 0px;
+}
+ul {
+    line-height: 140%;
+}
+li {
+    margin-bottom: 7px;
+}
+#content h2 {
+    color: #555;
+    line-height: 33px;
+    margin: 0 13px 11px;
+}
+#content h3 {
+    color: #777;
+    background: 0px -32px #aaa url(/universal/images/core-resources/backgrounds/gradient-150px-D5D5D5-FFFFFF.jpg) repeat-x;
+    padding: 7px 11px 11px;
+    margin: -11px -1px;
+    font-weight: bold;
+}
+#content h4 {
+    height: 33px;
+    color: black;
+    padding: 3px 8px 1px;
+    margin: -12px 1px 1px;
+    border-bottom-color: #ccc;
+    display: inline-block;
+    font-weight: bold;
+}
+#siteSubtitle {
+    margin-left: 11px;
+    letter-spacing: 3px;
+}
+#siteSubtitle, a:visited {
+    color: #822;
+}
+/* **** **** **** **** */
+/* **** END STUFF **** */
+/* **** **** **** **** */
+
+
+/***** ETC STUFF *****/
+span.full-image-block {
+    clear: both;
+    padding-top: 3em;
+    text-align: center;
+}
+span.full-image-block img {
+    border: 1px dashed #a44;
+}
+span.full-image-block span.thumbnail-caption {
+    color: #822;
+    font-weight: bold;
+    padding-top: 0;
+    width: auto !important;
+}
+span.full-image-block span.thumbnail-caption:before {
+    content: 'Click photo to go to gallery / عکس بالا را کلیک و به گالری مراجعه کنید';
+}
+#navigationTop .horizontalNavigationBar {
+    width: $(CanvasWidth-ContentPaddingExternal-ContentPaddingExternal)$;
+    margin-bottom: 15px;
+}
+#navigationBottom .horizontalNavigationBar {
+    width: $(CanvasWidth-ContentPaddingExternal-ContentPaddingExternal-20)$;
+}
+#sslightbox_title {
+/*    display: none !important;*/
+    height: 1px !important;
+    overflow: hidden;
+}
+#sslightbox_imgholder {
+/*    top: 15px !important;*/
+    margin-top: -20px;
+}
+#sslightbox_description {
+    width: 60% !important;
+    margin: auto 20% !important;
+    left: 0px !important;
+}
+#sslightbox_description .drt br {
+    float: left;
+}
+/***** JOURNAL STUFF *****/
+#content .journal-entry-tag-pre-title .inline-icon {
+    display: none;
+}
+#content .journal-entry-tag-post-title .inline-icon {
+    display: none;
+}
+#content div.journal-entry-wrapper {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#content .journal-entry-wrapper h2.title {
+    background-color: #822;
+    font: bold normal 15px/20px sans-serif;
+    margin: 0;
+    margin-left: -1em;
+    padding: .3em .7em .2em 1em;
+    opacity: .8;
+}
+#content .journal-entry-wrapper h2.title a {
+    color: #fff !important;
+}
+#content .journal-entry-navigation {
+    text-align: right;
+    padding-right: 2em;
+}
+
+/* <!-- -- -- -- -- -- end DRT css -- -- -- -- -- -- --> */

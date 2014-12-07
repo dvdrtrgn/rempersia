@@ -1,0 +1,20 @@
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>test</title>
+    <link href="drt.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="drt.js"></script>
+
+    <style>body { background-color: steelblue; }</style>
+</head>
+<body>
+    Testing rempers_code
+    <div id="Foo">Foo</div>
+    <script>
+        drt.issu.addFeature(); // immediate write
+        drt.issu.addFeature({parent: '#Foo'}); // immediate with dependancy
+        $(drt.issu.addFeature); // later write
+    </script>
+</body>
+</html>
