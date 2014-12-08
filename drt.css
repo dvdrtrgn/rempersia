@@ -39,6 +39,9 @@ div.header p {
 /* **** **** **** **** */
 /* **** DRT STUFF **** */
 /* **** **** **** **** */
+.drtdiv {
+    clear: both;
+}
 .drt p {
     line-height: 24px !important;
     margin: 6px;
@@ -106,6 +109,12 @@ div.header p {
 .rtl ul {
     padding: 0 24px 0 0;
     font-size: 80%;
+}
+.rtl ol li {
+    list-style-type: persian;
+}
+.rtl li {
+    font-size: 120%;
 }
 /* **** **** **** **** */
 /* **** ETC STUFF **** */
@@ -230,6 +239,17 @@ span.full-image-block span.thumbnail-caption:before {
 #content .journal-entry-navigation {
     text-align: right;
     padding-right: 2em;
+}
+.journal-entry-tag-post-body {
+    position: relative;
+    top: 66px;
+}
+.journal-entry-navigation {
+    position: relative;
+    top: -40px;
+}
+#modulePage10538498 div.single-journal-entry-wrapper div.journal-entry-text h2.title {
+    display: none;
 }
 
 /* <!-- -- -- -- -- -- end DRT css -- -- -- -- -- -- --> */
