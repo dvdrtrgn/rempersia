@@ -146,10 +146,11 @@ li {
 }
 #content h3 {
     color: #777;
-    background: 0px -32px #aaa url(/universal/images/core-resources/backgrounds/gradient-150px-D5D5D5-FFFFFF.jpg) repeat-x;
-    padding: 7px 11px 11px;
-    margin: -11px -1px;
+    background: 0px -32px #ddd url(/universal/images/core-resources/backgrounds/gradient-150px-D5D5D5-FFFFFF.jpg) repeat-x;
     font-weight: bold;
+    margin: -7px -4px;
+    padding: 7px 11px;
+    text-shadow: -1px 1px 1px white;
 }
 #content h4 {
     height: 33px;
