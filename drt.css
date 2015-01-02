@@ -236,17 +236,18 @@ span.full-image-block span.thumbnail-caption:before {
 #content .journal-entry-wrapper h2.title a {
     color: #fff !important;
 }
-#content .journal-entry-navigation {
-    text-align: right;
+#content .single-journal-entry-wrapper .journal-entry-tag-post-body { /* article footer: tags, etc */
+    background: 0px -16px #ddd url(/universal/images/core-resources/backgrounds/gradient-150px-D5D5D5-FFFFFF.jpg) repeat-x;
+    margin: -1px -11px;
+    padding: 1px 11px;
+    position: relative;
+    top: 32px;
+}
+#content .journal-entry-navigation { /* article pager << >> */
     padding-right: 2em;
-}
-.journal-entry-tag-post-body {
     position: relative;
-    top: 66px;
-}
-.journal-entry-navigation {
-    position: relative;
-    top: -40px;
+    text-align: right;
+    top: -23px;
 }
 #modulePage10538498 div.single-journal-entry-wrapper div.journal-entry-text h2.title {
     display: none;
