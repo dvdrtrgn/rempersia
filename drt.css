@@ -198,6 +198,9 @@ span.full-image-block span.thumbnail-caption:before {
 #navigationBottom .horizontalNavigationBar {
     width: $(CanvasWidth-ContentPaddingExternal-ContentPaddingExternal-20)$;
 }
+/*
+    LIGHTBOX
+*/
 #sslightbox_title {
 /*    display: none !important;*/
     height: 1px !important;
@@ -208,12 +211,15 @@ span.full-image-block span.thumbnail-caption:before {
     margin-top: -20px;
 }
 #sslightbox_description {
-    width: 60% !important;
-    margin: auto 20% !important;
+    width: 80% !important;
+    margin: auto 10% !important;
     left: 0px !important;
 }
-#sslightbox_description .drt br {
-    float: left;
+#sslightbox_description br {
+    display: none;
+}
+#sslightbox_description h2 {
+    color: #555;
 }
 /***** JOURNAL STUFF *****/
 #content .journal-entry-tag-pre-title .inline-icon {
@@ -253,5 +259,12 @@ span.full-image-block span.thumbnail-caption:before {
 #modulePage10538498 div.single-journal-entry-wrapper div.journal-entry-text h2.title {
     display: none;
 }
-
+/*
+    SLIDESHOW
+*/
+.squarespace-slideshow-description {
+    max-height: 170px;
+    overflow: auto !important;
+    text-shadow: 1px 2px 3px black;
+}
 /* <!-- -- -- -- -- -- end DRT css -- -- -- -- -- -- --> */

@@ -67,7 +67,7 @@ drt.issu.addFeature = function (cf) {
     cf.div.append('<h3 style="top: -0.8em; position: relative;">' + cf.str2 + '</h3>');
 
     O.last = cf;
-    C.debug('drt.issu.addFeature', O);
+    C.info('drt.issu.addFeature', O);
 };
 
 drt.tweakSplash = function () {
@@ -80,8 +80,15 @@ drt.tweakSplash = function () {
     eles.bAW.style.visibility='hidden';
     eles.bAW.style.padding='0';
 
-    C.debug('drt.tweakSplash');
+    C.info('drt.tweakSplash');
 };
 
+drt.cleanup = function () {
+    // (function () {
+    //     var p = document.getElementById('postform');
+    //     p && (p = p.parentNode) && p.appendChild(p.children[2])
+    // })();
+    $('body link[href="/storage/code/drt.css"]').remove();
+};
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
